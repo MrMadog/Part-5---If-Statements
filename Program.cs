@@ -233,6 +233,21 @@ namespace Part_5___If_Statements
                 Console.WriteLine("");
                 Console.WriteLine("Hurricane Intensity Scale(Saffir-Simpson)");
 
+                int num1;
+                Console.WriteLine("Pick a number");
+                num1 = Convert.ToInt32(Console.ReadLine());
+
+                switch (num1)
+                {
+                    case < 10:
+                        Console.WriteLine("Hello world");
+                        break;
+
+                    case > 10:
+                        Console.WriteLine("Goodbye world");
+                        break;
+                }
+
             }
 
         }
